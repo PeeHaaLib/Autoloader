@@ -13,7 +13,7 @@ tools:
             paths: ["src/*"]
     php_cpd:
         enabled: true
-        excluded_dirs: ["test"]
+        excluded_dirs: ["test", "vendor"]
     php_cs_fixer:
         enabled: true
         config:
@@ -28,7 +28,7 @@ tools:
             paths: ["src/*"]
     php_pdepend:
         enabled: true
-        excluded_dirs: ["test"]
+        excluded_dirs: ["test", "vendor"]
     php_analyzer: true
     php_analyzer:
         filter:
